@@ -1,22 +1,22 @@
 
 describe('Test my isFromBellville function', function () {
-  it("It should return 'True' when called with a registration number that starts with CY", function () {
-    assert.equal(true, isFromBellville("CY 123"), "this should not be true");
+  it("Write a function called isFromBellville that returns true if a registration number is for Bellville otherwise returns false. Registration numbers for Bellville starts with CY", function () {
+    assert.equal(true, isFromBellville("CY 123"));
 
 
   });
-  it("It should return 'true' when called with a registration number that starts with CY", function () {
-    assert.equal(false, isFromBellville("HDK 374 GP"), "this should not be true");
+  it("Write a function called isFromBellville that returns true if a registration number is for Bellville otherwise returns false. Registration numbers for Bellville starts with CY", function () {
+    assert.equal(false, isFromBellville("HDK 374 GP"));
 
   });
 
-  it("It should return 'true' when called with a registration number that starts with CY", function () {
-    assert.equal(true, isFromBellville("CY 937 293"), "this should not be true");
+  it("Write a function called isFromBellville that returns true if a registration number is for Bellville otherwise returns false. Registration numbers for Bellville starts with CY", function () {
+    assert.equal(true, isFromBellville("CY 937 293"));
     
   });
 
-  it("It should return 'true' when called with a registration number that starts with CY", function () {
-    assert.equal(false, isFromBellville("YUS 832 MP"), "this should not be true");
+  it("Write a function called isFromBellville that returns true if a registration number is for Bellville otherwise returns false. Registration numbers for Bellville starts with CY", function () {
+    assert.equal(false, isFromBellville("YUS 832 MP"));
     
   });
 });

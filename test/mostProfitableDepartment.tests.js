@@ -17,8 +17,8 @@ var salesData = [
 ];
 
 describe('Test my mostProfitableDepartment function', function () {
-    it("determine which of their departments are the most profitable", function () {
-        assert.deepEqual("outdoor", mostProfitableDepartment(salesData), "this should not be true");
+    it("Write a function to determine which of their departments are the most profitable", function () {
+        assert.deepEqual("outdoor", mostProfitableDepartment(salesData));
 
 
     });

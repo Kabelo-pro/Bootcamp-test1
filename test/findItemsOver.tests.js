@@ -7,27 +7,27 @@ var itemList = [
 ];
 
 describe('Test my findItemsOver function' , function(){
-    it("takes a list of objects each with a name and qty attribute. And also a second parameter which is a threshold for the quantity of items available. The function should return products that have quantity higher than the threshold.", function(){
+    it("Write a function called findItemsOver that takes a list of objects each with a name and qty attribute. And also a second parameter which is a threshold for the quantity of items available. The function should return products that have quantity higher than the threshold.", function(){
         assert.deepEqual([
             {name : 'pears', qty : 37},
             {name : 'bananas', qty : 27}
-        ], findItemsOver(itemList, 25), "this should not be true");
+        ], findItemsOver(itemList, 25));
 
         
     });
-    it("takes a list of objects each with a name and qty attribute. And also a second parameter which is a threshold for the quantity of items available. The function should return products that have quantity higher than the threshold.", function(){
+    it("Write a function called findItemsOver that takes a list of objects each with a name and qty attribute. And also a second parameter which is a threshold for the quantity of items available. The function should return products that have quantity higher than the threshold.", function(){
         assert.deepEqual([
             { name: 'pears', qty: 37 }
-        ], findItemsOver(itemList, 30), "this should not be true");
+        ], findItemsOver(itemList, 30));
 
         
     });
-    it("takes a list of objects each with a name and qty attribute. And also a second parameter which is a threshold for the quantity of items available. The function should return products that have quantity higher than the threshold.", function(){
+    it("Write a function called findItemsOver that takes a list of objects each with a name and qty attribute. And also a second parameter which is a threshold for the quantity of items available. The function should return products that have quantity higher than the threshold.", function(){
         assert.deepEqual([
             { name: 'apples', qty: 10 },
             { name: 'pears', qty: 37 },
             { name: 'bananas', qty: 27 },
-        ], findItemsOver(itemList, 5), "this should not be true");
+        ], findItemsOver(itemList, 5));
 
         
     });
